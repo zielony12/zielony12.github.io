@@ -8,17 +8,20 @@
 	src: url("font/ComicNeue-Regular.ttf");
 }
 
+@font-face {
+	font-family: soopafresh;
+	src: url("font/soopafresh_pl.ttf");
+}
+
 body, html {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	font-family: comic-regular;
-	font-size: 20px;
+	font-family: soopafresh;
+	font-size: 24px;
 }
 
 #about img {
-	width: 128px;
-	height: 78px;
 }
 
 #about section {
